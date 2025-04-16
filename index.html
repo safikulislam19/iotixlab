@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoTixLab</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/brands.min.css">
+    <link rel="stylesheet" href="css/style.css">    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./assets/images/logo.png" alt="IoTixLab Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to IoTixLab</h1>
+            <p>Your partner in real-time monitoring and smart solutions</p>
+            <a href="#contact" class="btn btn-primary btn-cta">Get in Touch</a>
+        </div>
+    </section>
+    <!-- About -->
+    <!-- <section id="about" class="about-section container">
+        <h2 class="pt-5">Our Mission</h2>
+        <p>IotixLab is a company focused on IoT (Internet of Things) based remote monitoring solutions. Our journey started with the mission to facilitate in-depth research on environment and agriculture. Thus born our first product, a data logger to capture environmental data. It was designed to gather temperature, ground water level, air quality and water quality data. It was deduced that to preserve, empower and better leverage the mother environment, better and efficient industry is a must.</p>
+
+        <p>Our focus then extended to Industries to facilitate Industrial growth in such a way that it streamlines production line keeping the environmental balance intact. Hence initiated the monitoring of industrial parameters like flow rate, humidity, temperature, level of fluid in tank and storage, utility consumption, vibration, etc. Monitoring these parameters and AI-based insights can foster growth ensuring minimum wastage and maximum profit.</p>
+
+        <div class="core-values">
+            <h3>Our Core Values</h3>
+            <ul>
+                <li>Quality First – We offer the best solutions to meet customer expectations with zero compromise on quality.</li>
+                <li>Innovative Solution – We strive for creative, efficient solutions for real-world problems.</li>
+                <li>Fast Service – Timely delivery and rapid support define our service standard.</li>
+                <li>Privacy – Your data is secured with military-grade encryption and strict access control.</li>
+                <li>Eco Friendly – We focus on reducing environmental impact through technology.</li>
+            </ul>
+        </div>
+    </section> -->
+    <!-- Service -->
+    <section id="services" class="py-5">
+        <div class="container">
+          <h2 class="section-title pt-5">Our Services</h2>
+          <h4 id="environmental" class="pb-2">Environmental Monitoring</h4>
+          <!-- Card -->
+          <div class="row row-cols-1 row-cols-md-4 g-4 mb-5">
+            <div class="col" >
+              <div class="card">
+                <img src="./assets/images/IMG-20250413-WA0003.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title"> Ground Water Quality Monitoring</h5>
+                  <a href="waterquality.html" class="btn btn-outline-primary">Read Details</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" >
+              <div class="card">
+                <img src="./assets/images/1733984121250.jpeg" class="card-img-top">
+                <div class="card-body">
+                <h5 class="card-title">Air Quality Monitoring Station</h5>
+                <a href="#" class="btn btn-outline-primary">Read Details</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" >
+              <div class="card">
+                <img src="env/water.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Water Quality Monitoring</h5>
+                  <a href="#" class="btn btn-outline-primary">Read Details</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" >
+              <div class="card">
+                <img src="env/soil.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Soil Moisture Monitoring</h5>
+                  <a href="#" class="btn btn-outline-primary">Read Details</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" >
+              <div class="card">
+                <img src="./assets/images/WhatsApp Image 2025-03-23 at 09.33.53_6363a53b.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Rainfall Measurement</h5>
+                  <a href="#" class="btn btn-outline-primary">Read Details</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" >
+              <div class="card">
+                <img src="./assets/images/IMG-20230920-WA0019 (1).jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Groundwater Level</h5>
+                  <a href="#" class="btn btn-outline-primary">Read Details</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" >
+              <div class="card">
+              <img src="env/surface.jpg" class="card-img-top">
+              <div class="card-body">
+              <h5 class="card-title">Surface Water Monitoring</h5>
+              <a href="#" class="btn btn-outline-primary">Read Details</a>
+            </div>
+          </div>
+
+          </div>
+
+            <div class="col" >
+              <div class="card">
+              <img src="env/noise.jpg" class="card-img-top">
+              <div class="card-body">
+              <h5 class="card-title">Noise Monitoring</h5>
+              <a href="#" class="btn btn-outline-primary">Read Details</a>
+            </div>
+          </div>
+          </div>
+
+            <!-- <div class="col" ><div class="card"><img src="env/solar.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Solar Radiation</h5><a href="#" class="btn btn-outline-primary">Read Details</a></div></div></div>
+
+            <div class="col" ><div class="card"><img src="env/buoy.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">BuoyInt Sea Monitoring</h5><a href="#" class="btn btn-outline-primary">Read Details</a></div></div></div> -->
+
+          </div>
+    
+          <h4 id="industrial">Industrial Monitoring</h4>
+          <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col"><div class="card"><img src="ind/flow.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Flow Rate Monitoring</h5><a href="#" class="btn btn-outline-primary">Read Details</a></div></div></div>
+            <div class="col"><div class="card"><img src="ind/temp.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Temp & Humidity</h5><a href="#" class="btn btn-outline-primary">Read Details</a></div></div></div>
+            <div class="col"><div class="card"><img src="ind/level.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Tank Level Monitoring</h5><a href="#" class="btn btn-outline-primary">Read Details</a></div></div></div>
+            <div class="col"><div class="card"><img src="ind/energy.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Utility Monitoring</h5><a href="#" class="btn btn-outline-primary">Read Details</a></div></div></div>
+            <div class="col"><div class="card"><img src="ind/vibration.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Vibration Monitoring</h5><a href="#" class="btn btn-outline-primary">Read Details</a></div></div></div>
+            <div class="col"><div class="card"><img src="ind/dosing.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Chemical Dosing</h5><a href="#" class="btn btn-outline-primary">Read Details</a></div></div></div>
+            <div class="col"><div class="card"><img src="ind/blowdown.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Boiler Blowdown</h5><a href="#" class="btn btn-outline-primary">Read Details</a></div></div></div>
+            <div class="col"><div class="card"><img src="ind/ph.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">pH & ORP in ETP/STP</h5><a href="#" class="btn btn-outline-primary">Read Details</a></div></div></div>
+            <div class="col"><div class="card"><img src="ind/wwater.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Wastewater Quality</h5><a href="#" class="btn btn-outline-primary">Read Details</a></div></div></div>
+            <div class="col"><div class="card"><img src="ind/emission.jpg" class="card-img-top"><div class="card-body"><h5 class="card-title">Air Emission Monitoring</h5><a href="#" class="btn btn-outline-primary">Read Details</a></div></div></div>
+          </div>
+        </div>
+      </section>
+      <!-- Product -->
+      <section id="products" class="py-5 bg-light">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold pt-5">ProMonitor</h2>
+            <p class="lead">A software + hardware platform for real-time data acquisition and monitoring</p>
+            <img src="/assets/images/Datalogger-IoTixLab.png" alt="ProMonitor Device" class="img-fluid my-4" style="max-width: 300px;">
+          </div>
+      
+          <div class="row mb-5">
+            <div class="col-lg-6">
+              <h4 class="fw-bold">Key Features</h4>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Remote, Continuous and Real-time Data</li>
+                <li class="list-group-item">Data acquisition from industrial sensors</li>
+                <li class="list-group-item">Telemetry of data over network</li>
+                <li class="list-group-item">Monitoring, visualization and analytics software</li>
+              </ul>
+              <p class="mt-3">ProMonitor data acquisition and monitoring system is a combination of hardware and software. It gathers data from sensors and shows it through a user-friendly interface. This reduces manual work and enables better decisions with accurate real-time data.</p>
+            </div>
+            <div class="col-lg-6">
+              <h4 class="fw-bold">Benefits</h4>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Real-time Asset Performance Monitoring</li>
+                <li class="list-group-item">Remote Meter and Sensor Data Monitoring</li>
+                <li class="list-group-item">Deploys non-invasive sensors</li>
+                <li class="list-group-item">24/7 Data Collection with Cloud Upload</li>
+                <li class="list-group-item">Alerts on Critical Parameters</li>
+                <li class="list-group-item">Data-Driven Decision Making</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="row mb-5">
+            <div class="col-lg-12">
+              <h4 class="fw-bold">Hardware Information</h4>
+              <p>ProMonitor serves as both a data logger and a gateway, bridging cloud and sensors/devices. Key features include:</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Built-in gateway for data collection and processing</li>
+                <li class="list-group-item">Supports RS-485 & MODBUS, configurable for RS-232/422</li>
+                <li class="list-group-item">Up to 10 years local data storage capacity</li>
+                <li class="list-group-item">GSM-based telemetry (LoRa, WiFi, Bluetooth optional)</li>
+                <li class="list-group-item">Custom sensor configuration (analog & digital)</li>
+                <li class="list-group-item">Durable, dust & moisture-proof enclosure</li>
+                <li class="list-group-item">Low-power design with 10-year Li-ion battery</li>
+                <li class="list-group-item">Complies with EFT, ESD, EMI, EMC standards</li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="row mb-5">
+            <div class="col-lg-12">
+              <h4 class="fw-bold">Software Information</h4>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <strong>Visualization and Analytics:</strong> Create and share dashboards using 30+ widget options (charts, gauges, maps, etc.).
+                </li>
+                <li class="list-group-item">
+                  <strong>Alarms Management:</strong> Set alerts for any connected asset/device. Real-time status and disconnection alarms.
+                </li>
+                <li class="list-group-item">
+                  <strong>Reporting Tools:</strong> Generate reports in Excel, CSV, graphs, charts, and more.
+                </li>
+                <li class="list-group-item">
+                  <strong>Cloud Support:</strong> Integrated with IoTixlab Cloud for device connectivity, storage, visualization, and insights.
+                </li>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="row text-center">
+            <div class="col-12">
+              <h5 class="fw-bold">How it works</h5>
+              <p><em>(Diagram to be placed here)</em></p>
+              <!-- Placeholder for diagram image -->
+              <div class="border p-4 rounded bg-white shadow-sm">
+                <p class="text-muted">You can upload a diagram image here later to visually explain the working process of ProMonitor.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Demo Product 2 -->
+    <div class="card mb-5 shadow border-0">
+        <div class="row g-0">
+          <div class="col-md-4 text-center p-4">
+            <img src="images/demo-product-2.png" alt="Demo Product 2" class="img-fluid">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title">SmartAir</h3>
+              <h5 class="text-muted">Smart Air Quality Monitoring System</h5>
+              <p>A plug-and-play solution for air quality monitoring, with GSM telemetry and solar power option. Ideal for industrial zones and urban pollution tracking.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Demo Product 3 -->
+      <div class="card mb-5 shadow border-0">
+        <div class="row g-0">
+          <div class="col-md-4 text-center p-4">
+            <img src="images/demo-product-3.png" alt="Demo Product 3" class="img-fluid">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title">AquaSense</h3>
+              <h5 class="text-muted">Surface Water Quality Monitoring Device</h5>
+              <p>Designed to monitor water quality parameters like pH, DO, turbidity and conductivity in real-time. Fully remote with optional buoy integration.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Demo Product 4 -->
+    <div class="card mb-5 shadow border-0">
+        <div class="row g-0">
+          <div class="col-md-4 text-center p-4">
+            <img src="images/demo-product-2.png" alt="Demo Product 2" class="img-fluid">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title">SmartAir</h3>
+              <h5 class="text-muted">Smart Air Quality Monitoring System</h5>
+              <p>A plug-and-play solution for air quality monitoring, with GSM telemetry and solar power option. Ideal for industrial zones and urban pollution tracking.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Demo Product 5 -->
+      <div class="card mb-5 shadow border-0">
+        <div class="row g-0">
+          <div class="col-md-4 text-center p-4">
+            <img src="images/demo-product-3.png" alt="Demo Product 3" class="img-fluid">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title">AquaSense</h3>
+              <h5 class="text-muted">Surface Water Quality Monitoring Device</h5>
+              <p>Designed to monitor water quality parameters like pH, DO, turbidity and conductivity in real-time. Fully remote with optional buoy integration.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </section>     
+      
+       <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light">
+      <div class="container">
+          <h2 class="text-center mb-5 pt-5">Client Testimonials</h2>
+          <div class="row">
+              <div class="col-md-4 mb-4">
+                  <div class="card h-100">
+                      <div class="card-body text-center">
+                          <img src="https://randomuser.me/api/portraits/women/32.jpg" class="rounded-circle mb-3" width="100" alt="Client">
+                          <p class="card-text">"The service was exceptional! I would definitely recommend them to anyone looking for quality work."</p>
+                          <div class="text-warning mb-2">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <h5 class="card-title">Sarah Johnson</h5>
+                          <p class="text-muted">CEO, Tech Solutions</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="card h-100">
+                      <div class="card-body text-center">
+                          <img src="https://randomuser.me/api/portraits/men/45.jpg" class="rounded-circle mb-3" width="100" alt="Client">
+                          <p class="card-text">"Professional team with great attention to detail. They delivered beyond our expectations."</p>
+                          <div class="text-warning mb-2">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                          </div>
+                          <h5 class="card-title">Michael Chen</h5>
+                          <p class="text-muted">Director, Global Corp</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="card h-100">
+                      <div class="card-body text-center">
+                          <img src="https://randomuser.me/api/portraits/women/68.jpg" class="rounded-circle mb-3" width="100" alt="Client">
+                          <p class="card-text">"Reliable and efficient. They understood our needs perfectly and delivered on time."</p>
+                          <div class="text-warning mb-2">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                          </div>
+                          <h5 class="card-title">Emily Rodriguez</h5>
+                          <p class="text-muted">Marketing Manager</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 pt-5">Contact Us</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Send us a message</h3>
+                            <form id="contactForm">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone (optional)</label>
+                                    <input type="tel" class="form-control" id="phone">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Our Location</h3>
+                            <!-- Embedded Google Map -->
+                            <div class="map-container mb-4">                            
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8381.390197289677!2d90.36829661497337!3d23.798873460998124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf517c84f8e9%3A0xf990f635eb2ce912!2sIoTixLab!5e0!3m2!1sen!2sbd!4v1744532421551!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                          </div>
+                          <div class="contact-info">
+                              <p><i class="fas fa-map-marker-alt me-2"></i> 445/2, North Kazipara (Paris Furniture Rd) Mirpur, Dhaka - 1216</p>
+                              <p><i class="fas fa-phone me-2"></i> +8801762294320</p>
+                              <p><i class="fas fa-envelope me-2"></i> info@iotixlab.com</p>
+                              <p><i class="fas fa-clock me-2"></i> Sunday-Thursday: 8:00 AM - 5:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      <!-- Footer -->
+      <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                  <h5>IoTixLab</h5>
+                  <p>Providing exceptional services since 2009.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="testimonials.html" class="text-white">Testimonials</a></li>
+                        <li><a href="#partners" class="text-white">Partners</a></li>
+                        <li><a href="#contact" class="text-white">Contact</a></li>
+                        <li><a href="#faq" class="text-white">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Connect With Us</h5>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 IoTixLab. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3">Privacy Policy</a>
+                    <a href="#" class="text-white">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./fontawesome/js/fontawesome.min.js"></script>
+    <script src="./fontawesome/js/brands.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

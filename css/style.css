@@ -1,0 +1,219 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://cdn.jsdelivr.net/gh/matteobruni/tsparticles/assets/img/demo4.jpg');
+    background-size: cover;
+    opacity: 0.2;
+    animation: fadein 3s ease-in-out;
+}
+
+.hero-content {
+    z-index: 10;
+    text-align: center;
+    animation: fadein 2s ease-in-out;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.btn-cta {
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* about */
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* logo */
+.navbar-brand img {
+    height: 40px;
+}
+/* About */
+.about-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    animation: slideInLeft 1s ease;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    color: #d32f2f;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    color: #444;
+}
+
+.core-values {
+    margin-top: 40px;
+}
+
+.core-values h3 {
+    color: #d32f2f;
+}
+
+.core-values ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.core-values ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.core-values ul li::before {
+    content: "✔";
+    color: #4caf50;
+    margin-right: 10px;
+}
+
+/* Service */
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .card img {
+    height: 180px;
+    object-fit: cover;
+  }
+
+  /* Testimonials */
+.testimonials .card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials .card:hover {
+    transform: translateY(-10px);
+}
+
+/* Ground Water */
+.gwl{
+    height: 300px;
+}
+
+/* Partners */
+/* .partner-logo {
+    height: 100px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+} */
+
+/*.partner-logo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+} */
+  /* Contact Form */
+.contact-info i {
+    width: 20px;
+    text-align: center;
+}
+
+.map-container {
+    border-radius: 5px;
+    overflow: hidden;
+}
+/* FAQ */
+/* .accordion-button:not(.collapsed) {
+    background-color: #f8f9fa;
+    color: #0d6efd;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+} */
+
+/* Footer */
+footer a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #0d6efd !important;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background: #0d6efd;
+    color: white !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    section {
+        padding: 60px 0;
+    }
+    
+    .hero {
+        padding: 80px 0;
+    }
+}
