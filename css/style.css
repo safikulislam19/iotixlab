@@ -142,11 +142,44 @@ body {
     transform: translateY(-10px);
 }
 
-/* Ground Water */
-.gwl{
-    height: 300px;
-}
+/* Service Details */
 
+.flex-container {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    /* font-size: 30px; */
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .flex-item-left {
+    
+    padding: 10px;
+    flex: 70%;
+  }
+  
+  .flex-item-right {
+    /* background-color: dodgerblue; */
+    padding: 10px;
+    flex: 30%;
+  }
+  
+  .groundwater-quality{
+    width: 100vh !important;
+  }
+  .groundwater-quality-img{
+    width: auto;
+    height: 500px !important;
+    padding: auto;
+  }
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+/* ================= */
 /* Partners */
 /* .partner-logo {
     height: 100px;
